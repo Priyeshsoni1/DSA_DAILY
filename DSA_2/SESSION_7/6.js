@@ -41,7 +41,7 @@
 // 1<=Student id<=10^7
 
 function marksSort(n, students) {
-  // Map to create new arrays with sum of marks and also include the original index for stable sorting
+  // Map to create new arrays with sum of marks and also include the original index for stable sor'''ting
   const processedStudents = students.map((arr) => {
     const id = arr[0];
     const name = arr[1];
